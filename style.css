@@ -1,0 +1,219 @@
+@import url('https://fonts.google.apis.com/css?family=Poopins:200,300,400,500,600.700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px; 
+    margin: 50px;
+    background-color: #ffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}
+.container .left_Side{
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+}
+
+.container .right_Side{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+.profileName{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileName .image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileName .image img { 
+    position: absolute;
+     top: 0;
+     left: 0; 
+    width: 100%;
+    height: 100%;
+     object-fit: cover; 
+} 
+
+.profileName h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileName h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0px ;
+    cursor: pointer;
+
+}
+.contactInfo ul li.icn{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+
+}
+.EducationInfo li {
+margin-bottom: 15px;
+}
+.EducationInfo li h5{
+    color:#03a9f4;
+    font-weight: 500;
+}
+.EducationInfo li h4:nth-child(2) 
+{
+    color: #fff;
+    font-weight: 500;
+}
+.EducationInfo li h4{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo.Language .Prcnt{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.contactInfo.Language .Prcnt div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.about{
+    margin-bottom: 20px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: rgb(40, 98, 153);
+}
+.about .box{
+display: flex;
+flex-direction: row;
+margin: 20px 0;
+}
+.about .box .Project{
+    min-width: 160px;
+    padding: 5px;
+}
+.about .box .Project h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about .box .text h5{
+    text-transform: uppercase;
+    color: #0a4763;
+    font-size: 16px;
+    
+}
+.about .box .text p{
+    color: #848c90;
+}
+.Skills .box{
+    position: relative;
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 160px 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.Skills .box  h4{
+    text-transform: uppercase;
+    color:#848c90 ;
+    font-weight: 500;
+ } 
+ .Skills .box  .percent{
+     position: relative;
+     width: 100%;
+     height: 10px;
+     background-color: #f1dddd;    
+ }
+ .Skills .box  .percent div{
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     background: #7cd2fa;
+ }
+ .Skills .Interest ul li{
+     margin: 2px;
+     padding: 5px;
+ }
+ .a{
+     text-decoration: none;
+     color: #03a9f4;
+ }
+ .Intrst ul li{
+     color: #fff;
+     margin-bottom: 22px;
+ }
